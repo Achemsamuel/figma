@@ -44,7 +44,7 @@
        </br>
     
     <?php
-            // Prints the day, date, month, year, time, AM or PM
+            date_default_timezone_set(DateTimeZone::listIdentifiers(DateTimeZone::UTC)[0]);
             echo date("l jS \of F Y h:i:s A") . "<br>";
              ?>
      <p class="tab">© 2018 Achem Samuel</p>
