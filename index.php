@@ -32,12 +32,6 @@
             <button id="searchBtn">Search</button>
         </div>
    </span>
-    </br>
-    
-    <?php
-            // Prints the day, date, month, year, time, AM or PM
-            echo date("l jS \of F Y h:i:s A") . "<br>";
-             ?>
     
    <div id="con">
      <div id="footer">
@@ -46,6 +40,13 @@
         <p class="tab">Speak with an Agent</p>
         <p class="tab">Find Job</p>
      </div>
+       
+       </br>
+    
+    <?php
+            // Prints the day, date, month, year, time, AM or PM
+            echo date("l jS \of F Y h:i:s A") . "<br>";
+             ?>
      <p class="tab">© 2018 Achem Samuel</p>
        
    </div>
