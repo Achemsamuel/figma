@@ -40,6 +40,12 @@
         <p class="tab">Find Job</p>
      </div>
      <p class="tab">© 2018 Achem Samuel</p>
+       <p class="tab> 
+            <?php
+                 // Prints the day, date, month, year, time, AM or PM
+                echo date("l jS \of F Y h:i:s A") . "<br>";
+                ?>          
+       </p>
    </div>
 </body> 
 </html>
