@@ -46,8 +46,10 @@
     <?php
            // date_default_timezone_set(DateTimeZone::listIdentifiers(DateTimeZone::UTC)[0]);
            // echo date("l jS \of F Y h:i:s A") . "<br>";
-            header("Content-type:application/json");//with header Content type 
-            readfile("apple-app-site-association")
+           header("Content-type: application/json");//with header Content type 
+           $data = readfile("apple-app-site-association");
+           echo json_encode($data);
+
             //echo file_get_contents("/.well-known/apple-app-site-association"); 
     ?>
      <p class="tab">© 2018 Achem Samuel</p>
@@ -60,6 +62,4 @@
 
 
 
-
-?> 
 
