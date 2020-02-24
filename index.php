@@ -46,9 +46,19 @@
     <?php
             date_default_timezone_set(DateTimeZone::listIdentifiers(DateTimeZone::UTC)[0]);
             echo date("l jS \of F Y h:i:s A") . "<br>";
+            header('Content-type: application/json');//with header Content type 
+            echo file_get_contents("/apple-app-site-association"); 
              ?>
      <p class="tab">© 2018 Achem Samuel</p>
        
    </div>
 </body> 
 </html>
+
+<?php 
+
+
+
+
+?> 
+
