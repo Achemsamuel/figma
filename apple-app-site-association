@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "2N24M5H3S7.com.softcom.koya.dslms",
+      "paths": ["/verify-email/*"]
+    },
+	 {
+      "appID": "2N24M5H3S7.com.softcom.Koya.beta",
+      "paths": ["/verify-email/*"]
+    }   
+    ]
+  }
+}
